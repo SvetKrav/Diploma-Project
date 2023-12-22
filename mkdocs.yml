@@ -1,0 +1,36 @@
+site_name: Google Docs
+
+nav:
+  - About Google Docs: index.md
+  - Creating a document: create.md
+  - Downloading a file: download.md
+  - Printing a file: print.md 
+  - Managing access: access.md
+  - Managing page settings: pagesettings.md
+  - Formatting the text: format.md
+  - Inserting content: images.md
+  - Managing add-ons: addons.md
+  
+  
+
+theme:
+  name: material
+  logo: Images/logo.png
+  favicon: Images/logo.png
+  palette:
+    primary: white
+    accent: indigo
+
+  
+  font:
+    text: Montserrat
+  features:
+    - navigation.tracking
+    - navigation.top
+   
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences    
+
